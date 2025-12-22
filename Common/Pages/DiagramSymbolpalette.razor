@@ -155,14 +155,14 @@
             else if (symbol is Node nodeID && nodeID.ID != "Label")
                 text = nodeID.ID;
         }
-        SymbolInfo.Description = new SymbolDescription() 
-        {
-            Text = text,
-            Style = new TextStyle()
+        SymbolInfo.Description = new SymbolDescription()
             {
-                TextWrapping = TextWrap.NoWrap,
-            },
-        };
+                Text = text,
+                Style = new TextStyle()
+                {
+                    TextWrapping = TextWrap.NoWrap,
+                },
+            };
         return SymbolInfo;
     }
 }
