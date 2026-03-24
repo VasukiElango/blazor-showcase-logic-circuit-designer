@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicCircuit", "LogicCircuit.csproj", "{23D34236-56EA-43EF-8A64-3F5136853A1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerCommon_NET8", "..\common\BlazorServerCommon_NET8.csproj", "{E02532F0-2A9C-4764-BBBB-1AE32DA650EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerCommon_NET10", "..\Common\BlazorServerCommon_NET10.csproj", "{E02532F0-2A9C-4764-BBBB-1AE32DA650EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

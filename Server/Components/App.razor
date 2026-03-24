@@ -50,22 +50,21 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <!-- Used for Property panel -->
     <link href=@Urihelper.Uri rel="canonical" />
-    <link href="_content/Syncfusion.Blazor/styles/fluent.css" rel="stylesheet" />
-    <!-- To refer the icons for the sample -->
-    <link href="_content/BlazorServerCommon_NET8/assets/db-icons1/style.css" rel="stylesheet" />
-    <!-- Conatins the Css property used in the sample level -->
-    <link href="_content/BlazorServerCommon_NET8/assets/dbstyle/diagrambuilder.css" rel="stylesheet" />
-    <script src="_content/BlazorServerCommon_NET8/interop.js" async></script>  
-    <script src="_content/Syncfusion.Blazor/scripts/syncfusion-blazor.min.js"></script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-
-
-
-    <HeadOutlet @rendermode="@InteractiveServer" />
+    <link href="_content/Syncfusion.Blazor/styles/fluent2.css" rel="stylesheet" />
+    <ResourcePreloader />
+        <!-- To refer the icons for the sample -->
+        <link href="@Assets["_content/BlazorServerCommon_NET10/assets/db-icons1/style.css"]" rel="stylesheet" />
+        <!-- Conatins the Css property used in the sample level -->
+        <link href="@Assets["_content/BlazorServerCommon_NET10/assets/dbstyle/diagrambuilder.css"]" rel="stylesheet" />
+        <script src="@Assets["_content/BlazorServerCommon_NET10/interop.js"]" async></script>  
+        <script src="@Assets["_content/Syncfusion.Blazor/scripts/syncfusion-blazor.min.js"]"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <ImportMap />
+    <HeadOutlet @rendermode="InteractiveServer" />
 </head>
 
 <body>
-    <Routes @rendermode="@InteractiveServer" />
+    <Routes @rendermode="InteractiveServer" />
     <!-- Google Tag Manager (noscript) -->
     <!--Page Load-->
     <noscript>
@@ -84,7 +83,7 @@
 
         </environment>
     </div>
-    <script src="_framework/blazor.web.js"></script>
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
 </body>
 
 </html>

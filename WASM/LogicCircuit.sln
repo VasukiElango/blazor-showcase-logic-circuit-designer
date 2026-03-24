@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicCircuit", "LogicCircui
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicCircuit.Client", "LogicCircuit.Client\LogicCircuit.Client.csproj", "{DEDA07A3-020E-42BF-8808-7F7367D4B789}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmCommon_NET8", "..\common\BlazorWasmCommon_NET8.csproj", "{379F596F-C62A-4F7B-8A3D-0CBDD46C7286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmCommon_NET10", "..\Common\BlazorWasmCommon_NET10.csproj", "{379F596F-C62A-4F7B-8A3D-0CBDD46C7286}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

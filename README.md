@@ -7,7 +7,7 @@ The Logic Circuit Designer App is a powerful and intuitive web application built
 
 * [System requirements](https://blazor.syncfusion.com/documentation/system-requirements/)
 
-* [NET 8 WebAssembly Workload](https://learn.microsoft.com/en-us/aspnet/core/blazor/webassembly-build-tools-and-aot?view=aspnetcore-8.0#net-webassembly-build-tools)
+* [NET 10 WebAssembly Workload](https://learn.microsoft.com/en-us/aspnet/core/blazor/webassembly-build-tools-and-aot?view=aspnetcore-10.0#net-webassembly-build-tools)
 
 ## How to run the demo
 
@@ -21,10 +21,10 @@ Clone the repository.This repository contains Blazor Logic Circuit Designer Serv
 * Open the command prompt from the demo's directory.
 * Run the demo using the following command.
    
-   To run .NET 8 Logic Circuit Designer Server project
+   To run .NET 10 Logic Circuit Designer Server project
    > `dotnet run --project Server/LogicCircuit.csproj`
 
-   To run .NET 8 Logic Circuit Designer WASM project
+   To run .NET 10 Logic Circuit Designer WASM project
    > `dotnet run --project WASM/LogicCircuit .sln`
 
 ### Run the demo using Visual Studio
